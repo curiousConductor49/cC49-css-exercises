@@ -15,14 +15,12 @@ img {
 }
 
 .container {
-  /* border: 2px solid green; */
   display: flex;
   justify-content: center;
   gap: 52px;
 }
 
 .container > div {
-  /* border: 2px solid purple; */
   width: 200px;
 }
 
