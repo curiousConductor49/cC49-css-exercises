@@ -35,8 +35,11 @@ a {
   color:dimgrey;
 }
 
-.header {
+.header, .footer {
   border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .left-links, .right-links {
@@ -45,9 +48,14 @@ a {
 
 .content {
   border: 2px solid purple;
+  margin: auto 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
-  border: 2px solid orange;
   background-color: #eeeeee;
+  margin-top: auto;
 }
