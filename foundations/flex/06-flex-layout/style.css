@@ -24,3 +24,28 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color:dimgrey;
+}
+
+.header {
+  border: 2px solid green;
+}
+
+.left-links, .right-links {
+  border: 2px solid red;
+}
+
+.content {
+  border: 2px solid purple;
+}
+
+.footer {
+  border: 2px solid orange;
+  background-color: #eeeeee;
+}
